@@ -52,13 +52,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (excellentRadio.isChecked()) {
-                    lessonTuri = "EXCELLENT";
+                    lessonTuri = "Отлично";
                 } else if (gooRadio.isChecked()) {
-                    lessonTuri = "GOOD";
+                    lessonTuri = "Тема";
                 } else if (okayRadio.isChecked()) {
-                    lessonTuri = "OKAY";
+                    lessonTuri = "Нормально";
                 } else if (poorRadio.isChecked()) {
-                    lessonTuri = "POOR";
+                    lessonTuri = "Ну такое";
                 }
 
 
