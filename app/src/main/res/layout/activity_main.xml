@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Оцените урок Мыктыбаева Бакытжана"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/excellentRadio"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Отлично"/>
+        <RadioButton
+            android:id="@+id/gooRadio"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Тема"/>
+        <RadioButton
+            android:id="@+id/okayRadio"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Нормально"/>
+        <RadioButton
+            android:id="@+id/poorRadio"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ну такое"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Ваши предложения"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/reallyCheckBox"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Мне очень нравится этот урок"/>
+    <CheckBox
+        android:id="@+id/willCheckBox"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Советую это направление другим"/>
+    <CheckBox
+        android:id="@+id/wouldCheckBox"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Тема урок, но хотелось бы изучать что-то масштабнее"/>
+    <CheckBox
+        android:id="@+id/satiffCheckBox"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Я довольна содержанием и полным описанием"/>
+    <Button
+        android:id="@+id/jiberuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Отправить"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>
