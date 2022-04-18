@@ -64,19 +64,25 @@ public class MainActivity extends AppCompatActivity {
 
                 if (reallyCheckBox.isChecked()) {
                    suggestion1 = "Yes";
+                }else{
+                    suggestion1 = "No";
                 }
 
                 if (willCheckBox.isChecked()) {
                     suggestion2 = "Yes";
+                }else {
+                    suggestion2 = "No";
                 }
                 if (wouldCheckBox.isChecked()) {
                     suggestion3 = "Yes";
+                }else {
+                    suggestion3 = "No";
                 }
-
                 if (satiffCheckBox.isChecked()) {
                     suggestion4 = "Yes";
+                }else {
+                    suggestion4 = "No";
                 }
-
 
                 String result ="osenka: "+lessonTuri+"\n"+
                         reallyCheckBox.getText()+": "+suggestion1+"\n"+
